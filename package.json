@@ -1,0 +1,20 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx servor --reload --browse"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psiris/CS50x2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psiris/CS50x2021/issues"
+  },
+  "homepage": "https://github.com/psiris/CS50x2021#readme",
+  "keywords": [],
+  "description": ""
+}

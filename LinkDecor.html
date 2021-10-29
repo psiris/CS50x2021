@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Link Decoration</title>
+        <style>
+            a
+            {
+                color: #ccaa2f;
+                text-decoration: none; 
+            }
+            a:hover 
+            {
+                text-decoration: underline;
+            }
+
+            #internal 
+            {
+                color: #000000
+            }
+        </style>
+        <!-- To change the style for all the **links**, start the section with "a", which is the _tag_ for link in html language.
+            To change the style of the **link** when the mouse hovers over, start the section with "a:hover".
+            To change the style of certain links, first _tag_ the link with "id" _attribute_, then start the section with the certain id, such as "internal".
+            The hash (#) symbol before the word presents the unique identifier. 
+        -->
+    </header>
+    <body>
+    <p>his is not a link</p>
+        <br>
+        <a href="/index.html", id = "internal">Homepage</a>
+        <!-- Relative path can start with "/" -->
+        <br>
+        <a href="https://google.com", id = "external">Google</a> 
+        <!-- need to include the protocal (http://) when using href-->
+        <br>
+        
+
+
+    </body>
+</html>
